@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="100dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">
+      	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="200dp"
+		    android:layout_height="60dp">
+     			<Button android:text="Bows" android:layout_width="120dp" android:layout_height="60dp" android:id="@+id/bow"></Button>
+     			<Button android:text="Add" android:layout_width="80dp" android:layout_height="60dp" android:id="@+id/bowadd"></Button>
+     	</LinearLayout>		
+     	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="200dp"
+		    android:layout_height="60dp">
+		<Button android:text="Quick Bows" android:layout_width="120dp" android:layout_height="60dp" android:id="@+id/quickBows"></Button>
+		<Button android:text="Add" android:layout_width="80dp" android:layout_height="60dp" android:id="@+id/quickBowsadd"></Button>
+		</LinearLayout>	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="200dp"
+		    android:layout_height="60dp">
+		<Button android:text="High Walk" android:layout_width="120dp" android:layout_height="60dp" android:id="@+id/highWalk"></Button>
+		<Button android:text="Add" android:layout_width="80dp" android:layout_height="60dp" android:id="@+id/highWalkadd"></Button>
+		</LinearLayout>	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="200dp"
+		    android:layout_height="60dp">
+		<Button android:text="Low Walk" android:layout_width="120dp" android:layout_height="60dp" android:id="@+id/lowWalk"></Button>
+		<Button android:text="Add" android:layout_width="80dp" android:layout_height="60dp" android:id="@+id/lowWalkadd"></Button>
+		</LinearLayout>	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="200dp"
+		    android:layout_height="60dp">
+		<Button android:text="Rises" android:layout_width="120dp" android:layout_height="60dp" android:id="@+id/rises"></Button>
+		<Button android:text="Add" android:layout_width="80dp" android:layout_height="60dp" android:id="@+id/risesadd"></Button>
+		</LinearLayout>	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="200dp"
+		    android:layout_height="60dp">
+		<Button android:text="Left" android:layout_width="100dp" android:layout_height="60dp" android:id="@+id/left"></Button>
+		<Button android:text="Right" android:layout_width="100dp" android:layout_height="60dp" android:id="@+id/right"></Button>
+		</LinearLayout>	
+		<Button android:text="Stop" android:layout_width="200dp" android:layout_height="70dp" android:id="@+id/stop"></Button>
+		
+	
+
+</LinearLayout>
+      	<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="110dp"
+		    android:layout_height="fill_parent">
+		          	<LinearLayout
+				    android:orientation="horizontal"
+				    android:layout_width="110dp"
+				    android:layout_height="300dp">
+				    <TextView android:text="X" android:id="@+id/listChecker" android:layout_width="10dp" android:layout_height="300dp"></TextView>
+					<TextView android:text="Routine Will Go Here" android:id="@+id/list" android:layout_width="100dp" android:layout_height="300dp"></TextView>
+					</LinearLayout>
+		<Button android:text="Undo" android:layout_width="110dp" android:layout_height="60dp" android:id="@+id/undo"></Button>
+		<Button android:text="Play" android:layout_width="110dp" android:layout_height="70dp" android:id="@+id/play"></Button>
+		</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Clear" android:id="@+id/clear"/>
+    
+<item android:id="@+id/routinea" android:title="Routine A"></item>
+<item android:title="Quit" android:id="@+id/quit"></item>
+</menu>
